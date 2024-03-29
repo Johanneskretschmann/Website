@@ -1,0 +1,55 @@
+!<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Johannes Kretschmann</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Johannes Kretschmann</h2>
+      <div class="toggle"></div>
+    </header>
+
+    <video src="FuerteventuraTest_Trim.mp4" muted loop autoplay></video>
+
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Newest Post</h2>
+      <h3>Fuerteventura</h3>
+      <p>Fuerteventura ist eine der Kanarischen Inseln im Atlantischen Ozean, rund 120 Kilometer westlich der marokkanischen Küste. Mit einer Fläche von 1659,74 km² hat sie einen Anteil von 22,15 % an der Landfläche der Kanaren. Damit ist sie nach Teneriffa die zweitgrößte Insel des Archipels. Im Jahr 2020 hatte die Insel 119.732 Einwohner. Ihre Hauptstadt ist Puerto del Rosario. Dort befindet sich der internationale Flughafen von Fuerteventura. Die Landessprache ist Spanisch. Fuerteventura bildet mit der durch die rund 11 Kilometer breite Meerenge La Bocayna von ihr getrennten, nördlich gelegenen Insel Lanzarote die östliche Grenze der Kanaren und gehört wie die anderen Kanarischen Inseln geographisch zu Afrika. Am 26. Mai 2009 wurde die gesamte Insel zum UNESCO-Biosphärenreservat erklärt und 2015 zum UNESCO-Lichtschutzgebiet.</p>
+      <a href="#">Explore</a>
+    </div>
+
+    <ul class="social">
+      <li><a href="https://www.instagram.com/johannes_kretschmann/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://www.instagram.com/johannes_kretschmann/"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/johannes_kretschmann/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+
+  <div class="menu">
+    <ul>
+      <li><a href="about.html">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Travel</a></li>
+      <li><a href="#">Fuerteventura</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="pages\Otzenhausen.html">Otzenhausen</a></li>
+      <li><a href="pages\360.html">360° Images</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', function() {
+     menuToggle.classList.toggle('active')
+     showcase.classList.toggle('active')
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Otzenhausen.css">
+  <title>Otzenhausen</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Johannes Kretschmann</h2>
+      <div class="toggle"></div>
+    </header>
+
+    <video src="Untitled4.mp4" muted loop autoplay></video>
+
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Otzenhausen</h2>
+      <h3>Rhetorikseminar</h3>
+      <p>In einem 3. tägigen Rhetorikseminar lernten wir wie man eine Präsentation aufbaut und vorallem diese vorträgt. Zu diesem Seminar haben wir einen kurzen 5 minütigen Vlog gedreht, in welchem wir "einen Tag an der EAO Otzenhausen" zeigen.</p>
+      <a href="https://youtu.be/RKRe5fcsIuA">View</a>
+    </div>
+
+    <ul class="social">
+      <li><a href="https://www.instagram.com/johannes_kretschmann/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://www.instagram.com/johannes_kretschmann/"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/johannes_kretschmann/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+
+  <div class="menu">
+    <ul>
+      <li><a href="..\index.html">Home</a></li>
+      <li><a href="..\pages\about.html">About</a></li>
+      <li><a href="..\pages\Schule.html">Schule</a></li>
+      <li><a href="..\Test.html">Fuerteventura</a></li>
+      <li><a href="..\pages\Contact.html">Contact</a></li>
+      <li><a href="#">Otzenhausen</a></li>
+      <li><a href="..\pages\360.html">360° Images</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', function() {
+     menuToggle.classList.toggle('active')
+     showcase.classList.toggle('active')
+    })
+  </script>
+</body>
+</html>

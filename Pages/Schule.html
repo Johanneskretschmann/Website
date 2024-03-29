@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="..\css\style.css">
+  <title>Schule</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Johannes Kretschmann</h2>
+      <div class="toggle"></div>
+    </header>
+
+    <video src="..\mp4\Untitled2_Trim.mp4" muted loop autoplay></video>
+
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>FWG-Trier</h2>
+      <h3>Meine Schule</h3>
+      <p>Das Friedrich-Wilhelm-Gymnasium ist das älteste und traditionsreichste Gymnasium in Trier. 1561 von den Jesuiten gegründet ist es heute ein staatliches Gymnasium, das Tradition und Moderne auf lebendige und vielfältige Weise verbindet. Als einzige Schule in Trier bieten es einen alt- und neusprachlichen Bildungsgang an. Das Anliegen der Schule ist, die Schülerinnen und Schüler entsprechend ihren Fähigkeiten optimal zu fördern. An diesem Gymnasium sollen Ihre Kinder zu weltoffenen Menschen heranwachsen, die Unterschiede und Vielfalt als Bereicherung begreifen. Zugleich stehen das FWG für eine bestmögliche Organisation des Unterrichts innerhalb eines breit gefächerten Angebots. </p>
+      <a href="https://www.fwg-trier.de/">Explore</a>
+    </div>
+
+    <ul class="social">
+      <li><a href="https://www.instagram.com/johannes_kretschmann/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://www.instagram.com/johannes_kretschmann/"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/johannes_kretschmann/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+
+  <div class="menu">
+    <ul>
+      <li><a href="..\index.html">Home</a></li>
+      <li><a href="..\pages\About.html">About</a></li>
+      <li><a href="#">Schule</a></li>
+      <li><a href="..\Test.html">Fuerteventura</a></li>
+      <li><a href="..\pages\Contact.html">Contact</a></li>
+      <li><a href="..\pages\Otzenhausen.html">Otzenhausen</a></li>
+      <li><a href="..\pages\360.html">360° Images</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', function() {
+     menuToggle.classList.toggle('active')
+     showcase.classList.toggle('active')
+    })
+  </script>
+</body>
+</html>

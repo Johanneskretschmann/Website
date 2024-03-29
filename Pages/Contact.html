@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="..\pages\mainC.css">
+  <title>Contact</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Johannes Kretschmann</h2>
+      <div class="toggle"></div>
+    </header>
+
+    <div class="image">
+    </div>
+
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Contact</h2>
+      <h3>Johannes Kretschmann</h3>
+      <p>____________________________________</p>
+      <p>Email:  johannes.kretschmann06@gmx.de</p>
+      <p>Tel.:   01578 816 3339</p>
+      <p>Adresse: Januraius-Zick-Str.75a 54296 Trier</p>
+      <p>____________________________________</p>
+      <a href="..\pages\about.html">About me</a>
+    </div>
+
+    <ul class="social">
+      <li><a href="https://www.instagram.com/johannes_kretschmann/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://www.instagram.com/johannes_kretschmann/"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/johannes_kretschmann/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+
+  <div class="menu">
+    <ul>
+      <li><a href="..\index.html">Home</a></li>
+      <li><a href="..\pages\About.html">About</a></li>
+      <li><a href="..\pages\Schule.html">Schule</a></li>
+      <li><a href="..\Test.html">Fuerteventura</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="..\pages\Otzenhausen.html">Otzenhausen</a></li>
+      <li><a href="..\pages\360.html">360° Images</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', function() {
+     menuToggle.classList.toggle('active')
+     showcase.classList.toggle('active')
+    })
+  </script>
+</body>
+</html>
